@@ -1,16 +1,6 @@
-// Smooth scroll effect
-const links = document.querySelectorAll('nav a');
-for (const link of links) {
-  link.addEventListener('click', clickHandler);
-}
+const mobileMenuBtn = document.querySelector(".mobile-menu");
+const menu = document.querySelector(".menu");
 
-function clickHandler(e) {
-  e.preventDefault();
-  const href = this.getAttribute('href');
-  const offsetTop = document.querySelector(href).offsetTop;
-
-  scroll({
-    top: offsetTop - 100,
-    behavior: "smooth"
-  });
-}
+mobileMenuBtn.addEventListener("click", () => {
+  menu.classList.toggle("menu-active");
+});
