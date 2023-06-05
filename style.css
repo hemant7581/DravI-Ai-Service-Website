@@ -115,7 +115,7 @@
   /* Header Styles */
   .hero {
     height: calc(100vh - 80px);
-    background-image: url("/images/hero.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPtPtLPrTH5laP440m4x0TVQYbdPS_AYrWg&usqp=CAU");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -133,12 +133,14 @@
     font-size: 48px;
     margin-bottom: 20px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
   }
   
   .hero h2 {
     font-size: 24px;
     margin-bottom: 50px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+     color: #fff;
   }
   
   /* Services Styles */
@@ -167,6 +169,7 @@
   .service img {
     margin-bottom: 20px;
     max-width: 100%;
+    border-radius: 10px;
   }
   
   .service h3 {
